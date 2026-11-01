@@ -12,6 +12,10 @@ bot.on('login', () => {
   console.log('ChaosBot joined the server!')
 })
 
+bot.on('spawn', () => {
+  console.log('ChaosBot is ready!')
+})
+
 bot.on('end', () => {
   console.log('ChaosBot disconnected.')
 })
