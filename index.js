@@ -3,7 +3,7 @@ const mineflayer = require('mineflayer')
 
 const bot = mineflayer.createBot({
   host: 'chaosphagesmp.play.hosting',
-  port: 25956,
+  port: 38573,
   username: 'ChaosBot',
   version: '1.21.4'
 })
